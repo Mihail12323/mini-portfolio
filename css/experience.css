@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #101010;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+nav .Logo{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav .nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background: #fff;
+    color: #383838;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 100px 0 400px;
+    flex-wrap: wrap;
+}
+
+.container .content h2{
+    font-size: 4em;
+    color: #101010;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.container .content ul li {
+    margin: 10px;
+    font-size: 1.5em;
+    color: #101010;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+.container .content-2{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.container .content-2 h2{
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #101010;
+}
+
+.container .content-2 p{
+    color: #101010;
+    font-size: 1.5em;
+    margin: 10px 20px;
+    font-weight: 700;
+}
